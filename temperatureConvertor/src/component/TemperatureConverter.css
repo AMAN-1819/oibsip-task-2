@@ -1,69 +1,66 @@
-/* TemperatureConverter.css */
 .converter-container {
-    display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically */
-    text-align: center; /* Center text */
-    padding: 20px;
-    border: 1px solid #f92f2f; /* Border for visibility */
-    border-radius: 10px; /* Rounded corners */
-    background-color: #08da5c; /* Light background color */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    max-width: 600px; /* Maximum width for the container */
-    margin: auto; /* Center the container in the parent */
-  }
-  
-  h1 {
-    margin-bottom: 20px; /* Space below the heading */
-  }
-  
-  .input-field {
-    margin: 20px ; /* Space between input fields */
-    width: 100%; /* Full width of the container */
-  }
-  .input-field label{
-    font-size: 30px;
-    
-  }
-  
-  input {
-    width: calc(100% - 20px); /* Full width minus padding */
-    padding: 10px; /* Padding inside the input */
-    border: 1px solid #ccc; /* Border for input */
-    border-radius: 5px; /* Rounded corners for input */
-    margin-top: 15px;
-    font-size: 20px;
-  }
-  
-  select {
-    width: calc(100% - 20px); /* Full width minus padding */
-    padding: 10px; /* Padding inside the select */
-    border: 1px solid #ccc; /* Border for select */
-    border-radius: 5px; /* Rounded corners for select */
-    margin-top: 15px;
-    font-size: 20px;
-  }
-  
-  button {
-    padding: 10px 20px; /* Padding for button */
-    background-color: black; /* Green background */
-    color: white; /* White text color */
-    border: none; /* No border */
-    border-radius: 5px; /* Rounded corners for button */
-    cursor: pointer; /* Pointer cursor on hover */
-    margin-top: 10px; /* Space above the button */
-    transition: background-color 0.3s; /* Transition effect for hover */
-    font-size: 20px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  text-align: center; 
+  padding: 20px;
+  border: 1px solid #f92f2f; 
+  border-radius: 10px; 
+  background-color: #08da5c; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  max-width: 600px; 
+  margin: auto; 
 }
-  
-  button:hover {
-    background-color: #7445a0; /* Darker green on hover */
-  }
-  
-  .result {
-    margin-top: 20px; /* Space above the result */
-    font-size: 30px; /* Larger font size for result */
-    color: blue; /* Dark text color */
-  }
-  
+
+h1 {
+  margin-bottom: 20px; 
+}
+
+.input-field {
+  margin: 20px; 
+  width: 100%; 
+}
+.input-field label {
+  font-size: 30px;
+}
+
+input {
+  width: calc(100% - 20px); 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+select {
+  width: calc(100% - 20px); 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+button {
+  padding: 10px 20px; 
+  background-color: black; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  margin-top: 10px; 
+  transition: background-color 0.3s; 
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: #7445a0; 
+}
+
+.result {
+  margin-top: 20px; 
+  font-size: 30px; 
+  color: blue; 
+}
